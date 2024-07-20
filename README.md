@@ -1,7 +1,23 @@
-# Random Number Generator 
+# Fun Project: Learning to Handle API Responses from Agify and Genderize with Flask
 
-A simple Flask application that generates a random number up to a specified upper limit. The upper limit is provided as a URL parameter (e.g., `/<int:value>`).
+This is a simple Flask application created as a fun project to learn how to handle API responses from the Agify and Genderize APIs. The application takes a name as input and provides predictions for the age and gender associated with that name.
 
-## Overview
+## Features
 
-This Flask application exposes a single endpoint that generates a random integer between 0 and a specified upper limit. The upper limit is passed as an integer in the URL. For example, accessing `/10` will return a random integer between 0 and 10.
+- Fetches age prediction from the Agify API
+- Fetches gender prediction from the Genderize API
+- Displays the predictions in a nicely styled HTML template with hover animations
+
+## Prerequisites
+
+- Python 3.x
+- Flask
+- Requests library
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
