@@ -1,4 +1,4 @@
-# Random Number Generator API
+# Random Number Generator
 
 A simple Flask application that generates a random number up to a specified upper limit. The upper limit is provided as a URL parameter (e.g., `/<int:value>`).
 
